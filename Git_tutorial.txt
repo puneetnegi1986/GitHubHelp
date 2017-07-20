@@ -1,10 +1,10 @@
-Working with Git
+ Working with Git
 
-open the git bash 
+ open the git bash 
 
-1) To configure your git use -  git config --global user.name "your name"
+ 1) To configure your git use -  git config --global user.name "your name"
 
-2)  set your email - git config --global user.email " your email address"
+ 2)  set your email - git config --global user.email " your email address"
  
  If you want to check your configration details than please use this command 
  
@@ -12,11 +12,11 @@ open the git bash
  
  for Help  you can use -  git help 
  
- If you want to learn more about the specific git command than type - Git help command name   
- for example if you want to read about the commit command than type - git help commit
- It will launch a default brower for this commit command with all details.
+   If you want to learn more about the specific git command than type - Git help command name.   
+   For example if you want to read about the commit command than type - git help commit.
+   It will launch a default brower for this commit command with all details.
  
- In git bash if you want to check where is git looking right now than type - pwd  and hit enter it will show directory location
+   In git bash if you want to check where is git looking right now than type - pwd  and hit enter it will show directory location
    
   For home dir type -  cd~ 
   
@@ -57,9 +57,42 @@ open the git bash
    
    working copy > staging (git add ) > repository (git commit)
    
-   
    Viewing changes witch you have made in files -->
-   type "git diff" and hit enter it will show us differnce between working copy ang repository file.
+   
+   Type "git diff" and hit enter it will show us differnce between working copy and repository file.
+   Type "git diff --staged" and hit enter it will show us differnce between staging area and repository file.
+   
+   How to delete a file from repository.
+   
+   git rm "file name"
+   
+   How to rename a file
+   
+   git mv "existing File Name" "newFileName" hit enter.
+   
+   moving file to other folder with differant name.
+   
+   git mv "existing File Name" "folder path/newFileName"  hit enter
+   
+   How to commit directly in repository from working file.
+   
+   Type git commit -am and hit enter. This command applicable for only for case where u have done some modification in your file.
+   
+   Git Checkout command use for takes file from repository to working copy and can undo your working directory changes.
+   
+   type git checkout --filename 
+   
+   Unstaging Files (If you made wrong changes in file add it to staging area than remove those changes from staging area use following command)
+   
+   type "git reset head fileName"
+    
+	Getting older version of project from repository.
+	 
+	 git checkout commitID --fileName
+   
+   
+   
+   
    
    
    
