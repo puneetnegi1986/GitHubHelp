@@ -34,7 +34,7 @@ open the git bash
    
    Than type "git commit " to commit the save.
    
-   If you want to write any massage during commit than type 
+   If you want to write any message during commit than type 
    
    git commit -m 'message'
    
@@ -48,3 +48,18 @@ open the git bash
 
    "git status" command use for check the status of working directory. if there is any code or file modification happen without commit 
    than it will show us details of those files.
+   
+   If you want to add specific file to staging area just type "git add filename" and than hit enter.
+   
+   Adding file to repository area just type "git commit -m message"
+   
+   In git every file has tree sate 
+   
+   working copy > staging (git add ) > repository (git commit)
+   
+   
+   Viewing changes witch you have made in files -->
+   type "git diff" and hit enter it will show us differnce between working copy ang repository file.
+   
+   
+   
