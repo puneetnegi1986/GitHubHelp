@@ -26,4 +26,25 @@ open the git bash
    Type - git ls -la    for check the hidden file show us list of files and hidden files as well.
    
    Type clear for clearing the screen.
-  
+   
+   
+   Now adding a file in git project first save or create some files and folder and that
+   
+   type "git add ." this command will add all the files in git repo 
+   
+   Than type "git commit " to commit the save.
+   
+   If you want to write any massage during commit than type 
+   
+   git commit -m 'message'
+   
+   If you want to view commit history than type
+   
+   git log 
+   
+   If you want to see history of perticuler user than type
+   
+   git log --author="author name"
+
+   "git status" command use for check the status of working directory. if there is any code or file modification happen without commit 
+   than it will show us details of those files.
