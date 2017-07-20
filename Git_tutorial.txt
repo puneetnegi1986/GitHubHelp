@@ -1,0 +1,29 @@
+Working with Git
+
+open the git bash 
+
+1) To configure your git use -  git config --global user.name "your name"
+
+2)  set your email - git config --global user.email " your email address"
+ 
+ If you want to check your configration details than please use this command 
+ 
+ git config --list
+ 
+ for Help  you can use -  git help 
+ 
+ If you want to learn more about the specific git command than type - Git help command name   
+ for example if you want to read about the commit command than type - git help commit
+ It will launch a default brower for this commit command with all details.
+ 
+ In git bash if you want to check where is git looking right now than type - pwd  and hit enter it will show directory location
+   
+  For home dir type -  cd~ 
+  
+  For creating a git project navigate to that folder which to want to make a git project/git repository
+   Type - git init 
+   
+   Type - git ls -la    for check the hidden file show us list of files and hidden files as well.
+   
+   Type clear for clearing the screen.
+  
