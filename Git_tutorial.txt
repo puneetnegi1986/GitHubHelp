@@ -82,13 +82,64 @@
    
    type git checkout --filename 
    
-   Unstaging Files (If you made wrong changes in file add it to staging area than remove those changes from staging area use following command)
+   Unstaging Files (If you made wrong changes in file add it to staging area than you can remove those changes from staging area use following command)
    
    type "git reset head fileName"
     
 	Getting older version of project from repository.
 	 
 	 git checkout commitID --fileName
+	 
+	 
+	 
+	GitHub tutorial
+	
+	How to push new git project in GitHub Repository
+	
+	1) create a new github project and uncheck the readme option
+	
+	2) open the git bash naviagate to that project directory, If it is not a git project then type 'git init'
+            
+    3) connencing the git with remote you need to type "git remote add alias Git hub project url"
+	    
+		Now git is connected to your github remote
+		
+	4) for pushing the project in github type " Git push -u githuburl/alias master"
+	
+	 Then git will ask you about enter your github username and password.	 
+	 
+	 Create the branch on your local machine and switch in this branch :
+
+     git checkout -b [name_of_your_new_branch]
+	 
+	 Push the branch on github :
+
+     $ git push origin [name_of_your_new_branch]
+	 
+	 You can see all branches created by using :
+
+     $ git branch
+	 
+	 Push changes from your commit into your branch :
+
+     $ git push [name_of_your_new_remote] [name_of_your_branch]
+	 
+	 Update your branch when the original branch from official repository has been updated :
+
+     $ git fetch [name_of_your_remote]
+	 
+	 Delete a branch on your local filesystem :
+
+	Delete a branch on your local filesystem :
+
+	$ git branch -d [name_of_your_new_branch]
+	To force the deletion of local branch on your filesystem :
+
+	$ git branch -D [name_of_your_new_branch]
+	Delete the branch on github :
+
+	$ git push origin :[name_of_your_new_branch]	 
+		
    
    
    
